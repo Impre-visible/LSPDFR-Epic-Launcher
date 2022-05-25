@@ -12,11 +12,12 @@ namespace Launcher
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            string startGTA, startRPH;
+            string startGTA, startRPH, GTAFolder;
             startGTA = "/C start com.epicgames.launcher://apps/0584d2013f0149a791e7b9bad0eec102%3A6e563a2c0f5f46e3b4e88b5f4ed50cca%3A9d2d0eb64d5c44529cece33fe2a46482?action=launch&silent=true";
             startRPH = "RAGEPluginHook.exe";
+            GTAFolder = @"F:/Epic Games/GTAV/";
             Process.Start("CMD.exe", startGTA);
-            Directory.SetCurrentDirectory(@"F:/Epic Games/GTAV/");
+            Directory.SetCurrentDirectory(GTAFolder);
             
             while(!IsExecuting("GTA5"))
             {
