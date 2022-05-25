@@ -1,5 +1,5 @@
 # RPH-Epic-Launcher
-A software to simply start RPH for Epic Games
+A software to simply start RPH for GTA on Epic Games
 
 # How to use it ?
 Download the project as a zip file, export it, and change the variables in Program.cs
