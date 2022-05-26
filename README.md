@@ -1,5 +1,5 @@
-# RPH-Epic-Launcher
-A software to simply start RPH (Rage Plugin Hook) for GTA on Epic Games
+# LSPDFR-Epic-Launcher
+A software to simply start LSPDFR (Los Santos Police Departement : First Respons) for GTA on Epic Games
 
 # How to use it ?
 Download the project as a zip file, export it, and change the variables in Program.cs
